@@ -18,9 +18,9 @@ function RandomCat() {
   return (
     <div className={styles.randomcat}>
       {catImage ? <img src={catImage} alt="cat"></img> : 'loading...'}<br/><br/>
-      Random Cat Fact: <br/> <br/>
+      {/* Random Cat Fact: <br/> <br/> */}
       <div className={styles.cat}>
-      {catFact ? <div>{catFact}</div> : 'loading...'}
+      {catFact ? <div>Random Cat Fact: <br/><br/>{catFact}</div> : 'loading...'}
       </div>
     </div>
   );

@@ -11,10 +11,6 @@ function RandomAdvice() {
     .then(data => data.slip)
     .then(data => setAdvice(data.advice))
 
-    // fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,political,explicit&type=single")
-    // .then(response => response.json())
-    // .then(data => setJoke(data.joke))
-
   },[]);
 
   return (
@@ -22,10 +18,6 @@ function RandomAdvice() {
     <div className={styles.advice}> 
       {advice ? <div>{advice}</div> : 'loading...'}
     </div><br/>
-
-    {/* <div className={styles.advice}> 
-      {joke ? <div>{joke}</div> : 'loading...'}
-    </div> */}
     </>
   );
 }
