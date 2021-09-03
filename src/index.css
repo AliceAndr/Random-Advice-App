@@ -24,15 +24,16 @@ code {
 button {
   font-family: fantasy;
   font-size: large;
-  background-color: #12323b;
+  background-color: #212121;
   color: white;
   border-radius: 5px;
   border: solid 1px #12323b;
   box-shadow: #1d2d52 0 0 10px;
   outline: none;
   cursor: pointer;
-  height: 36px;
-  width: 184px;
+  height: auto;
+  width: auto;
+  padding: 12px 40px;
 }
 
 button:hover {
