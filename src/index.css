@@ -5,7 +5,7 @@ body {
   background: url(/src/img/city1.jpg) no-repeat;
   background-size: cover;
   margin: 0;
-  font-family: fantasy;
+  font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
   font-size: 35px;
   background-color: #20232a;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +22,7 @@ code {
 }
 
 button {
-  font-family: fantasy;
+  font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
   font-size: large;
   background-color: #212121;
   color: white;

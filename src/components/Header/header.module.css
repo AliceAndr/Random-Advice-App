@@ -3,7 +3,7 @@
     min-height: 5vh;
     display: flex;
     justify-content: space-evenly;
-    font-family: fantasy;
+    font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
     font-size: calc(14px + 1vmin);
     color: white;
     margin-bottom: 26px;
