@@ -1,0 +1,23 @@
+.wrap {
+    background-color: #282c34;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: fantasy;
+    font-size: calc(14px + 1vmin);
+    color: white;
+    margin-bottom: 26px;
+}
+
+.wrap a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.wrap ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}

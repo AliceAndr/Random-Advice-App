@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: fantasy;
+  font-size: 35px;
+  color: #61dafb;
+  background-color: #20232a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#root {
+  text-align: center;
+}
+
+button {
+  font-family: fantasy;
+  font-size: large;
+  background-color: #12323b;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px #12323b;
+  box-shadow: #1d2d52 0 0 10px;
+  outline: none;
+  cursor: pointer;
+  height: 36px;
+  width: 184px;
+}
+
+button:hover {
+  box-shadow: #2a4074 0 0 15px;
+}
+
+button:active {
+  background-color: #227685;
+  box-shadow: #227685 0 0 20px;
+  transform: translateY(2px);
+}
+

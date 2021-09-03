@@ -1,0 +1,27 @@
+.randomcat img{
+  max-width: 600px;
+  max-height: 500px;
+  transition: 1s;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.61);
+}
+
+.randomcat img:hover {
+  transform: scale(1.2); 
+ }
+
+ .cat {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  font-size: 40px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  border: solid 1px #12323b;
+  box-shadow: #1d2d52 0 0 10px;
+ }
+
+ .cat:hover {
+  transition: 1s;
+  transform: scale(1.1); 
+ }
