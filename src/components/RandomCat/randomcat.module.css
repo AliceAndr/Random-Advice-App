@@ -1,13 +1,13 @@
 .randomcat img{
   max-width: 600px;
   max-height: 500px;
-  transition: 1s;
+  /* transition: 1s; */
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.61);
 }
 
-.randomcat img:hover {
+/* .randomcat img:hover {
   transform: scale(1.2); 
- }
+ } */
 
  .cat {
   background-color: rgba(240, 255, 255, 0.5);
