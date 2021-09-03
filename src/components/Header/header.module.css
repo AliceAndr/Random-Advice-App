@@ -3,8 +3,10 @@
     min-height: 5vh;
     display: flex;
     justify-content: space-evenly;
-    font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    /* font-family: fantasy, source-code-pro, Menlo, Monaco, Consolas, 'Courier New'; */
+    font-family: fantasy, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: calc(14px + 1vmin);
+    /* font-weight: 700; */
     color: white;
     margin-bottom: 26px;
 }
